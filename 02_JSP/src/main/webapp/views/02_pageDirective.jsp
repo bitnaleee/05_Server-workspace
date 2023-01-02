@@ -21,12 +21,10 @@
 	
 	<p>
 		현재 날짜 및 시간 : <%= today %> <br>
-		리스트의 길이 : <%=list.size() %> <br>
+		리스트의 길이 : <%= list.size() %> <br>
 		0번 인덱스 : <%= list.get(0) %> <br>
 		1번 인덱스 : <%= list.get(1) %> <br>
 	</p>
-	
-	
 
 </body>
 </html>

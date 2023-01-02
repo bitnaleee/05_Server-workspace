@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 public class RequestGetServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    /**
+    /** 
      * @see HttpServlet#HttpServlet()
      */
     public RequestGetServlet() {
@@ -72,7 +72,7 @@ public class RequestGetServlet extends HttpServlet {
 		if(result > 0) {
 			// 성공 => 성공페이지
 		} else {
-			// 실패 =>  실패페이지
+			// 실패 => 실패페이지
 		}
 		*/
 		
