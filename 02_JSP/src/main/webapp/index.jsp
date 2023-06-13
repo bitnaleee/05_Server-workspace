@@ -63,7 +63,7 @@
 			<a href="views/03_includeDirective.jsp">View detail</a>
 		</li>
 		<li>
-			taglib 지시어 : JSP 기능을 좀 더 확장시킬 수 있는 추가적인 라이브러리를 등록하는 구문
+			taglib 지시어 : JSP 기능을 좀 더 확장시킬 수 있는 추가적인 라이브러리를 등록하는 구문 => 파이널프로젝트
 		</li>
 	</ol>
 	

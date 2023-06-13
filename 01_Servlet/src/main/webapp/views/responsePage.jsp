@@ -21,7 +21,6 @@
 		
 	%>
 
-
 	<h2>개인정보응답화면 - POST</h2>
 	
 	<span id="name"><%= name %></span>님은
@@ -52,8 +51,6 @@
 		</ul>
 		
 	<% } %>
-
-
 
 </body>
 </html>

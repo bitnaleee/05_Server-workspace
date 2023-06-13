@@ -69,6 +69,7 @@ public class RequestGetServlet extends HttpServlet {
 		// > Service 메소드 호출 > Dao 메소드 호출 > DB에 sql문 실행
 		/*
 		int result = new MemberService().insertMember(name, gender, age, city, height, foods);
+		
 		if(result > 0) {
 			// 성공 => 성공페이지
 		} else {
@@ -89,7 +90,7 @@ public class RequestGetServlet extends HttpServlet {
 		// 2) 응답하고자 하는 사용자 (요청했던 사용자)와의 스트림 생성
 		PrintWriter out = response.getWriter();
 		// 3) 저 스트림을 통해 응답 html구문을 한 줄씩 출력
-		out.println("<html>");
+		out.println("<html>"); // 사용자에게 출력 cf. System.out.println => console
 		out.println("<head>");
 		
 		out.println("<style>");

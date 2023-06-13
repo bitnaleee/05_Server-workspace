@@ -21,6 +21,7 @@
 	<form action="/02_JSP/confirmPizza.do" method="get">
 
       <fieldset>
+      
          <legend>주문자정보</legend>
 
          <table>
@@ -41,9 +42,13 @@
                <td><textarea name="message"></textarea></td>
             </tr>
          </table>
+         
       </fieldset>
+      
       <br>
+      
       <fieldset>
+      
          <legend>주문정보</legend>
 
          <table>

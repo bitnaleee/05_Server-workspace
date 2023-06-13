@@ -12,7 +12,6 @@
 	int price = (int)request.getAttribute("price");
 	
 	String payment = (String)request.getAttribute("payment");
-	
 %>
 <!DOCTYPE html>
 <html>
@@ -59,16 +58,6 @@
 	
 	<h2>총 결제 금액 : <%= price %>원</h2>
 	<h2>결제방식 : <%= payment.equals("card") ? "카드" : "현금" %></h2>
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>

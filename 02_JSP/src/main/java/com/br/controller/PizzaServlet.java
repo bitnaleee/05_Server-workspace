@@ -40,17 +40,17 @@ public class PizzaServlet extends HttpServlet {
 		String[] toppings = request.getParameterValues("topping"); // ["", ""] / null
 		String[] sides = request.getParameterValues("side"); // ["", ""] / null
 		
-		
 		String payment = request.getParameter("payment"); // "card" / "cash"
 		
 		// 2) 요청처리 (=> Service => Dao => sql문 실행)
 		
+		// 각각 가격 추가 계산
 		int price = 0; // 총 결제 금액
 		
 		switch(pizza) {
 		case "콤비네이션피자" : price += 5000; break;
 		case "치즈피자" : price += 6000; break;
-		case "포테이토피자" :
+		case "포테이토피자" : // 아래쪽으로 내려감 똑같이 7000원 추가
 		case "고구마피자" : price += 7000; break;
 		case "불고기피자" : price += 8000; break;
 		}
